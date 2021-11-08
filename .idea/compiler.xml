@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="serenity-saucelabs" />
+        <module name="serenity-sauce" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="serenity-sauce" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
