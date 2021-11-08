@@ -12,7 +12,8 @@
 * You can setup environment variables for all sample repos (see Notes) or update `serenity.properties` file with your Sauce Labs Username and Access Key
 
 ## Running your tests
-- To run parallel tests, run `mvn verify -P parallel`
+- To run parallel tests, run `mvn verify`
+- Parallel tests will run against the number of browser/OS combos in your properties files, as long as you have a corresponding number of TestSuiteRunners
 
 ## Notes
 * You can view your test results on the [Sauce Labs dashboard](https://app.saucelabs.com/dashboard/tests/vdc)
